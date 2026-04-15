@@ -24,3 +24,5 @@ Unlike generic RTL projects, this implementation focuses on the practical integr
 2. Run the command:
    ```bash
    make sim
+#
+![](docs/4.png)
