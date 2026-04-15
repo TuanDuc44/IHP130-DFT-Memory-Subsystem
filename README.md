@@ -1,7 +1,7 @@
 # IHP130-DFT-Memory-Subsystem
-Standard-compliant DFT &amp; IJTAG infrastructure for IHP 130nm Memory IP, featuring IEEE 1149.1, 1500, and 1687 (SIB) integration.
-"This project implements a robust Test Access Mechanism (TAM) for digital SoC designs. It bridges the gap between high-level JTAG controllers and embedded Hard IPs (IHP 130nm RAM) by integrating IEEE 1500 wrappers with a reconfigurable IEEE 1687 (IJTAG) scan network using Segment Insertion Bits (SIB)."
-# IHP 130nm Memory DFT & IJTAG Network Design
+Standard-compliant DFT & IJTAG infrastructure for IHP 130nm Memory IP, featuring IEEE 1149.1, 1500, and 1687 (SIB) integration.
+
+This project implements a robust Test Access Mechanism (TAM) for digital SoC designs. It bridges the gap between high-level JTAG controllers and embedded Hard IPs (IHP 130nm RAM) by integrating IEEE standards-compliant test infrastructure.
 
 ## Overview
 This project implements a standards-compliant test infrastructure (IEEE 1149.1, 1500, 1687) integrated with a **Hard IP Memory** from the **IHP 130nm (SG13G2) PDK**. 
@@ -24,5 +24,7 @@ Unlike generic RTL projects, this implementation focuses on the practical integr
 2. Run the command:
    ```bash
    make sim
-#
-![](docs/4.png)
+   ```
+
+## Architecture Diagram
+![Architecture Diagram](docs/4.png)
